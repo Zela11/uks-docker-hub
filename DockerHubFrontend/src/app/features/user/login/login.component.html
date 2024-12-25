@@ -1,0 +1,16 @@
+<form [formGroup]="loginForm" (ngSubmit)="login()">
+    <div style="margin-top: 100px;">
+        <h1>Dobrodošli!</h1>
+        <mat-form-field>
+            <mat-label>E-mail</mat-label>
+            <input matInput formControlName="email" type="text"/>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Lozinka</mat-label>
+            <input matInput formControlName="password" type="password"/>
+        </mat-form-field>
+    <button class="login-button" type="submit" mat-raised-button>Prijavite se</button>
+    <p>Nemate nalog? <a href="/register">Registrujte se</a></p>
+    <!-- <a href="/forgot-password">Forgot password?</a> -->
+    </div>
+</form>

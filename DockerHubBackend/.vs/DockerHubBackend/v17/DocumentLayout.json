@@ -1,0 +1,366 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|c:\\users\\korisnik\\desktop\\uks\\uks-docker-hub\\dockerhubbackend\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|c:\\users\\korisnik\\desktop\\uks\\uks-docker-hub\\dockerhubbackend\\service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|solutionrelative:service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|c:\\users\\korisnik\\desktop\\uks\\uks-docker-hub\\dockerhubbackend\\shared\\jwtgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|solutionrelative:shared\\jwtgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|c:\\users\\korisnik\\desktop\\uks\\uks-docker-hub\\dockerhubbackend\\shared\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|solutionrelative:shared\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|c:\\users\\korisnik\\desktop\\uks\\uks-docker-hub\\dockerhubbackend\\irepository\\itokengeneratorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|solutionrelative:irepository\\itokengeneratorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|c:\\users\\korisnik\\desktop\\uks\\uks-docker-hub\\dockerhubbackend\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|solutionrelative:iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|c:\\users\\korisnik\\desktop\\uks\\uks-docker-hub\\dockerhubbackend\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|solutionrelative:repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|c:\\users\\korisnik\\desktop\\uks\\uks-docker-hub\\dockerhubbackend\\irepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|solutionrelative:irepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|c:\\users\\korisnik\\desktop\\uks\\uks-docker-hub\\dockerhubbackend\\iservice\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|solutionrelative:iservice\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|c:\\users\\korisnik\\desktop\\uks\\uks-docker-hub\\dockerhubbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|c:\\users\\korisnik\\desktop\\uks\\uks-docker-hub\\dockerhubbackend\\dto\\credentialsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|solutionrelative:dto\\credentialsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|c:\\users\\korisnik\\desktop\\uks\\uks-docker-hub\\dockerhubbackend\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|solutionrelative:repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|c:\\users\\korisnik\\desktop\\uks\\uks-docker-hub\\dockerhubbackend\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|solutionrelative:dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|c:\\users\\korisnik\\desktop\\uks\\uks-docker-hub\\dockerhubbackend\\dto\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|solutionrelative:dto\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|c:\\users\\korisnik\\desktop\\uks\\uks-docker-hub\\dockerhubbackend\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|solutionrelative:irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|c:\\users\\korisnik\\desktop\\uks\\uks-docker-hub\\dockerhubbackend\\probadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|solutionrelative:probadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|c:\\users\\korisnik\\desktop\\uks\\uks-docker-hub\\dockerhubbackend\\migrations\\20241223112534_usermigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|solutionrelative:migrations\\20241223112534_usermigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|c:\\users\\korisnik\\desktop\\uks\\uks-docker-hub\\dockerhubbackend\\shared\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|solutionrelative:shared\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|c:\\users\\korisnik\\desktop\\uks\\uks-docker-hub\\dockerhubbackend\\contexts\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|solutionrelative:contexts\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|c:\\users\\korisnik\\desktop\\uks\\uks-docker-hub\\dockerhubbackend\\dockerhubbackend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|solutionrelative:dockerhubbackend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|c:\\users\\korisnik\\desktop\\uks\\uks-docker-hub\\dockerhubbackend\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68A5BB7-623C-4A66-BE18-4F1B99C5B953}|DockerHubBackend.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "Repository\\UserRepository.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABEAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T11:51:51.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\Service\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "Service\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\Service\\AuthenticationService.cs",
+              "RelativeToolTip": "Service\\AuthenticationService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T12:47:29.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\Shared\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Shared\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\Shared\\UnitOfWork.cs",
+              "RelativeToolTip": "Shared\\UnitOfWork.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAkwC8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T13:30:40.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JwtGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\Shared\\JwtGenerator.cs",
+              "RelativeDocumentMoniker": "Shared\\JwtGenerator.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\Shared\\JwtGenerator.cs",
+              "RelativeToolTip": "Shared\\JwtGenerator.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABQAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T19:58:55.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T14:06:16.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\IRepository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "IRepository\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\IRepository\\IUserRepository.cs",
+              "RelativeToolTip": "IRepository\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T12:00:17.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ITokenGeneratorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\IRepository\\ITokenGeneratorRepository.cs",
+              "RelativeDocumentMoniker": "IRepository\\ITokenGeneratorRepository.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\IRepository\\ITokenGeneratorRepository.cs",
+              "RelativeToolTip": "IRepository\\ITokenGeneratorRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T15:40:54.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\IService\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "IService\\IAuthenticationService.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\IService\\IAuthenticationService.cs",
+              "RelativeToolTip": "IService\\IAuthenticationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T12:42:53.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T13:22:44.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\IUnitOfWork.cs",
+              "RelativeToolTip": "IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T12:19:32.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CredentialsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\DTO\\CredentialsDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\CredentialsDTO.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\DTO\\CredentialsDTO.cs",
+              "RelativeToolTip": "DTO\\CredentialsDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T15:21:06.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\Repository\\Repository.cs",
+              "RelativeToolTip": "Repository\\Repository.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwBcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T11:58:29.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\IRepository\\IRepository.cs",
+              "RelativeDocumentMoniker": "IRepository\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\IRepository\\IRepository.cs",
+              "RelativeToolTip": "IRepository\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T11:50:20.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "DTO\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T12:45:25.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TokenDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\DTO\\TokenDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\TokenDTO.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\DTO\\TokenDTO.cs",
+              "RelativeToolTip": "DTO\\TokenDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T11:17:49.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProbaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\ProbaDTO.cs",
+              "RelativeDocumentMoniker": "ProbaDTO.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\ProbaDTO.cs",
+              "RelativeToolTip": "ProbaDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T12:24:51.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20241223112534_UserMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\Migrations\\20241223112534_UserMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241223112534_UserMigration.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\Migrations\\20241223112534_UserMigration.cs",
+              "RelativeToolTip": "Migrations\\20241223112534_UserMigration.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T11:25:35.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\Shared\\Entity.cs",
+              "RelativeDocumentMoniker": "Shared\\Entity.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\Shared\\Entity.cs",
+              "RelativeToolTip": "Shared\\Entity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T19:58:07.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DockerHubBackend.http",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\DockerHubBackend.http",
+              "RelativeDocumentMoniker": "DockerHubBackend.http",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\DockerHubBackend.http",
+              "RelativeToolTip": "DockerHubBackend.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-12-17T13:22:07.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\Contexts\\DataContext.cs",
+              "RelativeDocumentMoniker": "Contexts\\DataContext.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\Contexts\\DataContext.cs",
+              "RelativeToolTip": "Contexts\\DataContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T14:48:11.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\UKS\\uks-docker-hub\\DockerHubBackend\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T12:19:32.081Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

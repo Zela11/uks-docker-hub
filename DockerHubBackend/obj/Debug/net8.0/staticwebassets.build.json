@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Etk39V1APzcwLMGhS5rhdcrDGFuYYA1BhO8Q/UmD4qU=",
+  "Source": "DockerHubBackend",
+  "BasePath": "_content/DockerHubBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

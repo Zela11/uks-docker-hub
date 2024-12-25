@@ -1,0 +1,14 @@
+<div>
+    <header>
+       <div class="header-left">
+        <h1>Docker Hub</h1>
+       </div> 
+    </header>
+    <nav class="navbar">
+      <ul>
+          <li><button *ngIf="isLoggedIn()" (click)="logout()">Log out</button></li>
+          <li><button *ngIf="!isLoggedIn()" (click)="navigateToLogin()">Log in</button></li>
+      </ul>
+    </nav>
+  </div>
+
