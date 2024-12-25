@@ -35,16 +35,8 @@ namespace DockerHubBackend.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<ActionResult> Register()
+        public async Task<ActionResult> Register([FromBody] UserDTO user)
         {
-            UserDTO user = new UserDTO
-            {
-                Password = "sifraaaa",
-                Email = "email",
-                Name = "ime",
-                Surname = "prezime",
-                Birthday = "rodj"
-            };
 
             bool isCreated = await _authService.Register(user);
 

@@ -6,17 +6,15 @@ namespace DockerHubBackend.Model
     {
         public string Password { get; set; }
         public string Email { get; set; }
-        public string Name { get; set; }
-        public string Surname { get; set; }
-        public string Birthday { get; set; }
+        public string Username { get; set; }
+        public Role Role { get; set; }
 
         public User() { }
-        public User (string pass, string email, string name, string surname, string birthday) {
+        public User (string pass, string email, string username, Role role) {
             Password = pass;
             Email = email;
-            Name = name;
-            Surname = surname;
-            Birthday = birthday;
+            Username = username;
+            Role = role;
         }
     }
 }

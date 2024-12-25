@@ -1,1 +1,41 @@
-<p>register works!</p>
+<div class="center-horizontal">
+    <form [formGroup]="registrationForm" (ngSubmit)="register()" class="registration-form">
+        <div class="horizontal">
+            <label>Username: </label>
+            <input type="text" formControlName="name" class="form-control m-3">
+        </div>
+        <div class="horizontal">
+            <label>E-mail: </label>
+            <input type="text" formControlName="email" class="form-control m-3">
+        </div>
+    
+        <div class="mb-3">
+            <div class="horizontal">
+                <label>Password: </label>
+                <input type="password" class="form-control m-3" id="passwordInput"
+                formControlName="password"
+                [ngClass]="{ 'is-invalid': !registrationForm.get('password')?.valid && registrationForm.get('password')?.touched }">
+            </div>
+            <div *ngIf="registrationForm.get('password')?.errors" class="invalid-feedback">
+                <div class="error" *ngIf="registrationForm.get('password')?.errors?.['required']">You must enter password!</div>
+                <div class="error" *ngIf="registrationForm.get('password')?.errors?.['minlength']">Password must be at least 8 charachters long.</div>
+            </div>
+        </div>
+    
+        <div class="mb-3">
+            <div class="horizontal">
+                <label>Confirm password: </label>
+            <input type="password" class="form-control m-3" id="confirmPasswordInput"
+                formControlName="confirmPassword"
+                [ngClass]="{ 'is-invalid': registrationForm.get('confirmPassword')?.touched && registrationForm.get('password')?.value !== registrationForm.get('confirmPassword')?.value }">
+            <div *ngIf="registrationForm.get('confirmPassword')?.touched && registrationForm.get('password')?.value !== registrationForm.get('confirmPassword')?.value"
+                class="invalid-feedback">
+                Passwords do not match!
+                </div>
+            </div>
+        </div>
+        <div class="center-horizontal">
+            <button type="submit" class="btn btn-primary m-3" (submit)="register()" mat-raised-button>Register</button>
+        </div>
+    </form>
+    </div>

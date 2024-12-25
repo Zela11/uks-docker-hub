@@ -15,7 +15,7 @@ import { JwtHelperService } from '@auth0/angular-jwt';
 })
 export class UserService {
 
-  user$ = new BehaviorSubject<User>({id: 0, email: "", role: ""});
+  user$ = new BehaviorSubject<User>({id: 0, email: "", username: "", password: "", role: -1});
   jwtHelperService = new JwtHelperService();
 
   constructor(private http: HttpClient, private router: Router, private tokenStorage: TokenStorage) { }
@@ -35,15 +35,16 @@ export class UserService {
           },
           (error) => {
             //this.toastr.error('Lozinka ili e-mail nisu ispravni!')
+            alert('Wrong email or password!')
             console.error('Login failed:', error);
           }
         )
       );
   }
 
-  /*register(client: Client): Observable<Client> {
-    return this.http.post<Client>(environment.apiHost + 'authentication/register', client)
-  }**/
+  register(user: User): Observable<User> {
+    return this.http.post<User>(environment.apiHost + 'authentication/register', user)
+  }
 
   logout(): void {
     this.router.navigate(['/login']).then((_) => {
@@ -51,7 +52,9 @@ export class UserService {
       this.user$.next({
         id: 0,
         email: '',
-        role: '',
+        username: "",
+        password: "",
+        role: -1,
       });
     });
   }
@@ -70,6 +73,8 @@ export class UserService {
       role: decodedToken[
         'http://schemas.microsoft.com/ws/2008/06/identity/claims/role'
       ],
+      username: "",
+      password: ""
 
     };
     this.user$.next(user);

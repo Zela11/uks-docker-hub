@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { UserService } from '../user.service';
 import { Credentials } from '../model/credentials.model';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -10,7 +11,7 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 })
 export class LoginComponent {
 
-  constructor(private userService: UserService) { }
+  constructor(private userService: UserService, private router: Router) { }
 
   loginForm = new FormGroup({
     email: new FormControl('', [Validators.required]),
@@ -24,7 +25,9 @@ export class LoginComponent {
     };
 
     this.userService.login(cred).subscribe(
-
+      (_) => {
+        this.router.navigate(['home']);
+      }
     )
   }
 }

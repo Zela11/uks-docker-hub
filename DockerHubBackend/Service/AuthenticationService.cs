@@ -1,6 +1,7 @@
 ﻿using DockerHubBackend.DTO;
 using DockerHubBackend.IService;
 using DockerHubBackend.Model;
+using DockerHubBackend.Shared;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DockerHubBackend.Service
@@ -28,8 +29,7 @@ namespace DockerHubBackend.Service
 
         public async Task<bool> Register(UserDTO user)
         {
-            User user1 = new User(user.Password, user.Email, user.Name, user.Surname, user.Birthday);
-            var result = await _unitOfWork.GetUserRepository().Add(user1);
+            var result = await _unitOfWork.GetUserRepository().Add(new User(user.Password, user.Email, user.Username, (Role)user.Role));
             await _unitOfWork.Save();
 
             if (result != null)
